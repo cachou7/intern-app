@@ -17,6 +17,13 @@
 		83ADA3B720E1547900CD5F30 /* PLCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA3B620E1547900CD5F30 /* PLCUITests.swift */; };
 		83ADA3C520E165D000CD5F30 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADA3C420E165D000CD5F30 /* ProfileViewController.swift */; };
 		83BD2FE020E2C7D400260BAC /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD2FDF20E2C7D400260BAC /* TaskTableViewCell.swift */; };
+		99AB732620E4269E00E00A2A /* InitiativeCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AB732520E4269E00E00A2A /* InitiativeCreateViewController.swift */; };
+		99AB732920E42E0000E00A2A /* Initiatives.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732720E42E0000E00A2A /* Initiatives.storyboard */; };
+		99AB732C20E42E2800E00A2A /* Leaderboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732A20E42E2800E00A2A /* Leaderboard.storyboard */; };
+		99AB732E20E42E4A00E00A2A /* InitiativeCreate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732D20E42E4A00E00A2A /* InitiativeCreate.storyboard */; };
+		99AB733020E42E6C00E00A2A /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732F20E42E6C00E00A2A /* TabBarController.storyboard */; };
+		99AB733220E42E8E00E00A2A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB733120E42E8E00E00A2A /* Profile.storyboard */; };
+		99AB733420E42EAA00E00A2A /* NavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB733320E42EAA00E00A2A /* NavigationController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		83ADA3C420E165D000CD5F30 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		83BD2FDE20E2C25000260BAC /* PLC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLC-Bridging-Header.h"; sourceTree = "<group>"; };
 		83BD2FDF20E2C7D400260BAC /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		99AB732520E4269E00E00A2A /* InitiativeCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitiativeCreateViewController.swift; sourceTree = "<group>"; };
+		99AB732820E42E0000E00A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PLC/Base.lproj/Initiatives.storyboard; sourceTree = "<group>"; };
+		99AB732B20E42E2800E00A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PLC/Base.lproj/Leaderboard.storyboard; sourceTree = "<group>"; };
+		99AB732D20E42E4A00E00A2A /* InitiativeCreate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitiativeCreate.storyboard; sourceTree = "<group>"; };
+		99AB732F20E42E6C00E00A2A /* TabBarController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
+		99AB733120E42E8E00E00A2A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		99AB733320E42EAA00E00A2A /* NavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +118,19 @@
 		83ADA39320E1547400CD5F30 /* PLC */ = {
 			isa = PBXGroup;
 			children = (
+				99AB733320E42EAA00E00A2A /* NavigationController.storyboard */,
 				83ADA39420E1547400CD5F30 /* AppDelegate.swift */,
 				83ADA39620E1547400CD5F30 /* TaskTableViewController.swift */,
 				83BD2FDF20E2C7D400260BAC /* TaskTableViewCell.swift */,
 				83ADA39820E1547400CD5F30 /* LeaderboardViewController.swift */,
 				83ADA3C420E165D000CD5F30 /* ProfileViewController.swift */,
+				99AB732520E4269E00E00A2A /* InitiativeCreateViewController.swift */,
 				83ADA39A20E1547400CD5F30 /* Main.storyboard */,
+				99AB732720E42E0000E00A2A /* Initiatives.storyboard */,
+				99AB732F20E42E6C00E00A2A /* TabBarController.storyboard */,
+				99AB733120E42E8E00E00A2A /* Profile.storyboard */,
+				99AB732D20E42E4A00E00A2A /* InitiativeCreate.storyboard */,
+				99AB732A20E42E2800E00A2A /* Leaderboard.storyboard */,
 				83ADA39D20E1547900CD5F30 /* Assets.xcassets */,
 				83ADA39F20E1547900CD5F30 /* LaunchScreen.storyboard */,
 				83ADA3A220E1547900CD5F30 /* Info.plist */,
@@ -241,8 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AB733020E42E6C00E00A2A /* TabBarController.storyboard in Resources */,
+				99AB732C20E42E2800E00A2A /* Leaderboard.storyboard in Resources */,
+				99AB733220E42E8E00E00A2A /* Profile.storyboard in Resources */,
 				83ADA3A120E1547900CD5F30 /* LaunchScreen.storyboard in Resources */,
 				83ADA39E20E1547900CD5F30 /* Assets.xcassets in Resources */,
+				99AB733420E42EAA00E00A2A /* NavigationController.storyboard in Resources */,
+				99AB732920E42E0000E00A2A /* Initiatives.storyboard in Resources */,
+				99AB732E20E42E4A00E00A2A /* InitiativeCreate.storyboard in Resources */,
 				83ADA39C20E1547400CD5F30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AB732620E4269E00E00A2A /* InitiativeCreateViewController.swift in Sources */,
 				83ADA39920E1547400CD5F30 /* LeaderboardViewController.swift in Sources */,
 				83ADA39520E1547400CD5F30 /* AppDelegate.swift in Sources */,
 				83BD2FE020E2C7D400260BAC /* TaskTableViewCell.swift in Sources */,
@@ -322,6 +350,22 @@
 				83ADA3A020E1547900CD5F30 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99AB732720E42E0000E00A2A /* Initiatives.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99AB732820E42E0000E00A2A /* Base */,
+			);
+			name = Initiatives.storyboard;
+			sourceTree = "<group>";
+		};
+		99AB732A20E42E2800E00A2A /* Leaderboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99AB732B20E42E2800E00A2A /* Base */,
+			);
+			name = Leaderboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

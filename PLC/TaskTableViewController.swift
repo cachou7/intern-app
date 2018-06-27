@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TaskTableViewController: UITableViewController {
+class TaskTableViewController: UITableViewController, UIPopoverPresentationControllerDelegate {
     
     let tasks = ["task #1"]
     
@@ -37,5 +37,27 @@ class TaskTableViewController: UITableViewController {
         cell.taskTag.text = "#participate"
         return cell
     }
+    
+    @IBAction func composeButton(_ sender: UIBarButtonItem) {
+        // get a reference to the view controller for the popover
+        let popController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "InitiativeCreate")
+        
+        // set the presentation style
+        popController.modalPresentationStyle = UIModalPresentationStyle.popover
+        
+        // set up the popover presentation controller
+        popController.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.up
+        popController.popoverPresentationController?.delegate = self as UIPopoverPresentationControllerDelegate
+
+        // present the popover
+        self.present(popController, animated: true, completion: nil)
+    }
+    
+    // UIPopoverPresentationControllerDelegate method
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        // Force popover style
+        return UIModalPresentationStyle.popover
+    }
+        
 }
 

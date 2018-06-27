@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AMN-zv-t8u">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14113"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initiatives-->
+        <scene sceneID="eCL-55-mCa">
+            <objects>
+                <tableViewController title="Initiatives" id="AMN-zv-t8u" customClass="TaskTableViewController" customModule="PLC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rvs-4a-8oo" userLabel="Table View">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCell" rowHeight="90" id="QoY-kJ-wON" userLabel="CellTable" customClass="TaskTableViewCell" customModule="PLC" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QoY-kJ-wON" id="YkK-vZ-qGV" userLabel="Cell">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World Cup Watch Party!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8N4-8q-btJ">
+                                            <rect key="frame" x="20" y="8" width="183" height="24"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's watch the world cup!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6g-Gm-mBj">
+                                            <rect key="frame" x="20" y="28" width="164" height="20"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1d ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yn9-6d-pJG">
+                                            <rect key="frame" x="20" y="69" width="32" height="14"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 replies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyU-Cm-ETn">
+                                            <rect key="frame" x="188" y="68" width="38" height="14"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#participate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wx1-ic-qK0">
+                                            <rect key="frame" x="340" y="8" width="54" height="14"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Wx1-ic-qK0" firstAttribute="top" secondItem="8N4-8q-btJ" secondAttribute="top" id="D57-RB-OBi"/>
+                                        <constraint firstItem="fyU-Cm-ETn" firstAttribute="centerX" secondItem="YkK-vZ-qGV" secondAttribute="centerX" id="RIg-KR-Ke3"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="yn9-6d-pJG" secondAttribute="bottom" constant="-4" id="RPw-aN-b5l"/>
+                                        <constraint firstItem="Z6g-Gm-mBj" firstAttribute="leading" secondItem="8N4-8q-btJ" secondAttribute="leading" id="aKv-ej-P2H"/>
+                                        <constraint firstItem="yn9-6d-pJG" firstAttribute="top" secondItem="Z6g-Gm-mBj" secondAttribute="bottom" constant="21" id="e2y-iu-SkO"/>
+                                        <constraint firstItem="fyU-Cm-ETn" firstAttribute="top" secondItem="Z6g-Gm-mBj" secondAttribute="bottom" constant="20" id="iSg-Qw-i2U"/>
+                                        <constraint firstItem="8N4-8q-btJ" firstAttribute="top" secondItem="YkK-vZ-qGV" secondAttribute="topMargin" constant="-3" id="nZs-Zj-sOi"/>
+                                        <constraint firstItem="yn9-6d-pJG" firstAttribute="leading" secondItem="Z6g-Gm-mBj" secondAttribute="leading" id="nlQ-eA-YTw"/>
+                                        <constraint firstItem="Wx1-ic-qK0" firstAttribute="trailing" secondItem="YkK-vZ-qGV" secondAttribute="trailingMargin" id="o4B-Pj-dj2"/>
+                                        <constraint firstItem="yn9-6d-pJG" firstAttribute="leading" secondItem="YkK-vZ-qGV" secondAttribute="leadingMargin" id="zZ4-QL-AD9"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="taskLocation" destination="Z6g-Gm-mBj" id="6cb-GP-lJF"/>
+                                    <outlet property="taskReplies" destination="fyU-Cm-ETn" id="oDt-f2-11w"/>
+                                    <outlet property="taskTag" destination="Wx1-ic-qK0" id="T7Z-Fz-7gt"/>
+                                    <outlet property="taskTime" destination="yn9-6d-pJG" id="Unv-hg-SfB"/>
+                                    <outlet property="taskTitle" destination="8N4-8q-btJ" id="Kpw-az-UFg"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AMN-zv-t8u" id="HaO-AG-xpL"/>
+                            <outlet property="delegate" destination="AMN-zv-t8u" id="cQt-ds-OyV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Mys-yE-DkB" userLabel="Task Board">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="G73-C0-4HF">
+                            <rect key="frame" x="74" y="7" width="266" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="All"/>
+                                <segment title="Participate"/>
+                                <segment title="Lead"/>
+                            </segments>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Create" image="iconCreate" id="B3W-aE-x7s">
+                            <connections>
+                                <action selector="composeButton:" destination="AMN-zv-t8u" id="jDE-vL-y4l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="45o-w3-xLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1781.5999999999999" y="-1058.3208395802101"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconCreate" width="25" height="25"/>
+    </resources>
+</document>
