@@ -22,7 +22,6 @@
 		99AB732E20E42E4A00E00A2A /* InitiativeCreate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732D20E42E4A00E00A2A /* InitiativeCreate.storyboard */; };
 		99AB733020E42E6C00E00A2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB732F20E42E6C00E00A2A /* Main.storyboard */; };
 		99AB733220E42E8E00E00A2A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB733120E42E8E00E00A2A /* Profile.storyboard */; };
-		99AB733420E42EAA00E00A2A /* NavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AB733320E42EAA00E00A2A /* NavigationController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +62,8 @@
 		99AB732820E42E0000E00A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PLC/Base.lproj/Initiatives.storyboard; sourceTree = "<group>"; };
 		99AB732B20E42E2800E00A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PLC/Base.lproj/Leaderboard.storyboard; sourceTree = "<group>"; };
 		99AB732D20E42E4A00E00A2A /* InitiativeCreate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitiativeCreate.storyboard; sourceTree = "<group>"; };
-		99AB732F20E42E6C00E00A2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99AB732F20E42E6C00E00A2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = PLC/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		99AB733120E42E8E00E00A2A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		99AB733320E42EAA00E00A2A /* NavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +114,6 @@
 		83ADA39320E1547400CD5F30 /* PLC */ = {
 			isa = PBXGroup;
 			children = (
-				99AB733320E42EAA00E00A2A /* NavigationController.storyboard */,
 				83ADA39420E1547400CD5F30 /* AppDelegate.swift */,
 				83ADA39620E1547400CD5F30 /* TaskTableViewController.swift */,
 				83BD2FDF20E2C7D400260BAC /* TaskTableViewCell.swift */,
@@ -264,7 +261,6 @@
 				99AB733220E42E8E00E00A2A /* Profile.storyboard in Resources */,
 				83ADA3A120E1547900CD5F30 /* LaunchScreen.storyboard in Resources */,
 				83ADA39E20E1547900CD5F30 /* Assets.xcassets in Resources */,
-				99AB733420E42EAA00E00A2A /* NavigationController.storyboard in Resources */,
 				99AB732920E42E0000E00A2A /* Initiatives.storyboard in Resources */,
 				99AB732E20E42E4A00E00A2A /* InitiativeCreate.storyboard in Resources */,
 			);
