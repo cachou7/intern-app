@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "1869e6e253580d44ea8865ffb7a6a62e"
+build_time: [1530116240, 723985000]
+inputs:
+  "/Users/Chris/Documents/SapientRazorfish/PLC/PLC/LeaderboardViewController.swift": [1529945555, 0]
+  "/Users/Chris/Documents/SapientRazorfish/PLC/PLC/AppDelegate.swift": [1529945332, 0]
+  "/Users/Chris/Documents/SapientRazorfish/PLC/PLC/TaskTableViewCell.swift": [1530110547, 0]
+  "/Users/Chris/Documents/SapientRazorfish/PLC/PLC/ProfileViewController.swift": [1529949811, 0]
+  "/Users/Chris/Documents/SapientRazorfish/PLC/PLC/TaskTableViewController.swift": [1530110549, 0]
