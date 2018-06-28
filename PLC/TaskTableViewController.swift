@@ -58,6 +58,17 @@ class TaskTableViewController: UITableViewController, UIPopoverPresentationContr
         // Force popover style
         return UIModalPresentationStyle.popover
     }
-        
+    /*
+    func private presentationController(_ controller: UIPresentationController, viewControllerForAdaptivePresentationStyle style: UIModalPresentationStyle) -> UIViewController? {
+        let navigationController = UINavigationController(rootViewController: controller.presentedViewController)
+        let btnDone = UIBarButtonItem(title: "Done", style: .Done, target: self, action: "dismiss")
+        navigationController.topViewController.navigationItem.rightBarButtonItem = btnDone
+        return navigationController
+    }
+    
+    func dismiss() {
+        self.dismiss(true, completion: nil)
+    }
+    */
 }
 
